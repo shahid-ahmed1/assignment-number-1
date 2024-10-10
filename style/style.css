@@ -51,3 +51,70 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+/* my web related style */
+.my-web , .inspearation{
+    padding: 0 48px 48px 48px ;
+    max-width: 1140px;
+    margin: 70px auto;
+}
+.my-web-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.my-web-discription{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+ }
+.web-contantainer-1{
+    margin-top: 95px;
+    display: flex;
+    gap: 250px;
+
+}
+.web-title{
+    
+    width: 390px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.web-discription{
+    width: 478px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+.web-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px;
+    background: none;
+}
+.web-contantainer-2{
+    margin-top: 95px;
+    display: flex;
+    gap: 32px;
+}
+.web-contant-2{ 
+    padding: 25px;
+}
