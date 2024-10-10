@@ -7,7 +7,7 @@
 /* banner related style */
 .banner{
   margin: 0 auto;
-  max-width: 1640px;
+  max-width: 1440px;
   background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -135,7 +135,7 @@
 .card{
     display: flex;
     justify-content: center;
-    gap: 50px; 
+    gap: 30px; 
     
 }
 .card-1{
@@ -181,9 +181,8 @@
 }
 /* start related style */
 .start-section{
-   /* background-image:url("rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);") , url("../assets/handshake.jpg"); */
-   opacity: 1.9;
    background-image: url("../assets/handshake.jpg");
+   background-color: linear-gradient(rgba(0, 0, 0, 0.2));
    border-radius: 16px;
    padding: 64px 0;
    max-width: 1140px;
