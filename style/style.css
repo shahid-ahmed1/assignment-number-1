@@ -185,7 +185,7 @@
    opacity: 1.9;
    background-image: url("../assets/handshake.jpg");
    border-radius: 16px;
-   padding:64px 48px ;
+   padding: 64px 0;
    max-width: 1140px;
    margin: 70px auto;
    display: flex;
@@ -193,8 +193,7 @@
    justify-content: center;
    align-items: center;
 }
-.start{
-}
+
 .start-title{
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -242,4 +241,12 @@
     text-align: center;
     padding: 17px 20px;
     border: none;
+ }
+ /* footer related style */
+ .footer{
+    margin: 70px auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
  }
