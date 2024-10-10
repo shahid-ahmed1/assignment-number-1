@@ -135,7 +135,7 @@
 .card{
     display: flex;
     justify-content: center;
-    gap: 30px; 
+    gap: 52px; 
     
 }
 .card-1{
@@ -181,8 +181,7 @@
 }
 /* start related style */
 .start-section{
-   background-image: url("../assets/handshake.jpg");
-   background-color: linear-gradient(rgba(0, 0, 0, 0.2));
+   background-image: url("../assets/handshake.jpg") ,url("linear-gradient(rgba(0, 0, 0, 0.2))");
    border-radius: 16px;
    padding: 64px 0;
    max-width: 1140px;
