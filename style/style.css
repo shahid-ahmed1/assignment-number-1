@@ -7,15 +7,18 @@
 /* banner related style */
 .banner{
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1640px;
   background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
-  /* background-size: contain; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-size: contain;
+  
   padding: 20px 60px 240px;
+}
+.banner-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .banner-title{
     color: rgb(13, 19, 33);
@@ -124,7 +127,7 @@
     border: 1 px solid red;
 }
 /* curret related style */
-.current{
+.current , .start{
     max-width: 1140px;
     margin: 70px auto;
 
@@ -176,3 +179,67 @@
     text-align: left;
     text-decoration-line: underline;
 }
+/* start related style */
+.start-section{
+   /* background-image:url("rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);") , url("../assets/handshake.jpg"); */
+   opacity: 1.9;
+   background-image: url("../assets/handshake.jpg");
+   border-radius: 16px;
+   padding:64px 48px ;
+   max-width: 1140px;
+   margin: 70px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.start{
+}
+.start-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.start-discription{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.start input[type="text"]{
+    padding: 20px;
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    gap: 32px;
+ }
+.strt-btn{
+    color: rgba(13, 19, 33, 0.4);
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+ .submet{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    border: none;
+ }
